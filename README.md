@@ -1,6 +1,6 @@
 # Covid19 Data Processing
 1. Data source is [John Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
-1. Convert wide format to long format and sanitize the data
+1. [Python code](Covid19-Data.ipynb) to convert wide format to long format and sanitize the data
 1. Inputs are three files: `confimred`, `deaths`, and `recovered`
 1. Ouput four files:
     1. `covid19-confirmed-<date>.csv`
